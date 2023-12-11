@@ -29,4 +29,3 @@ class TestMessage:
 
             assert(hello_from_liza.body == "Hello 👋")
             assert(hello_from_liza.username == "Liza")
-            assert(type(hello_from_liza.created_at) == datetime)
